@@ -43,7 +43,7 @@ void printArray(int arr[], int n)
 }
 int main()
 {
-    int arr[] = {12, 11, 13, 5, 6, 7};    //array value stay here
+    int arr[] = {12, 11, 13, 5, 6, 7};    //array value add here
     int n = sizeof(arr)/sizeof(arr[0]);
 
     heapSort(arr, n);
